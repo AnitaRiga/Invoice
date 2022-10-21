@@ -1,7 +1,7 @@
-﻿namespace Invoice
+﻿namespace Goods
 {
     //Public properties of a class.
-    public class Invoice
+    public class Goods
     {
         public string partNumber;
         public string partDescription;
@@ -9,7 +9,7 @@
         public string unitOfGoods;
         public decimal unitPrice;
 
-        public Invoice(string partNumber, string partDescription, int countOfPurchasedGoods, string unitOfGoods, decimal unitPrice)
+        public Goods(string partNumber, string partDescription, int countOfPurchasedGoods, string unitOfGoods, decimal unitPrice)
         {
             PartNumber = partNumber;
             PartDescription = partDescription;
